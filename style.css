@@ -1,0 +1,120 @@
+header{
+    background-color: #FFFED3;
+    padding: 10px;
+}
+.bold{
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+h4{
+  text-align: center;
+}
+button{
+    background-color: #FFE9D0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+  }
+ .date  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 20%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+  footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    color: white;
+  }
+  .latest{
+    padding: 15px;
+    margin: 5px;
+    border: 5px black;
+  }
+  img{
+    height: 200px;
+    width: 300px;
+    float: right;
+  }
+  
+  .top{
+    padding: 15px 20px;
+  }
+  body{
+    background-color: #FEF3E2;
+  }
+  a:hover {
+    background-color: yellow;
+    
+  }
+  #sidebar{
+    background-color: #DCA47C;
+  }
+  
+  .photos{
+    padding: 3px;
+    margin-left: 10px;
+  }
+  h3{
+    font-size: 40px;
+  }
